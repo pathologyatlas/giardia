@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+
+
+<hr />
+
+<p><a href="https://www.patolojiatlasi.com/"><img src="https://www.patolojiatlasi.com/images/coverTR.png" style="width:50%;" /></a></p>
+
+<p><a href="https://www.histopathologyatlas.com/"><img src="https://www.patolojiatlasi.com/images/coverEN.png" style="width:50%;" /></a></p>
+
+<ul>
+  <li>
+    <p>Sosyal medyadan derlenen görüntülerden oluşan patoloji notları için <a href="https://www.patolojinotlari.com/">tıklayın</a>.</p>
+  </li>
+  <li>
+    <p>For social media based pathology notes <a href="https://www.patolojinotlari.com/">click here</a>.</p>
+  </li>
+</ul>
+
+<p><a href="https://www.patolojinotlari.com/"><img src="https://www.patolojiatlasi.com/images/patolojinotlari.com.png" style="width:50%;" /></a></p>
+
+<iframe width="160" height="400" src="https://leanpub.com/patolojiatlasi/embed" frameborder="0" allowtransparency="true"></iframe>
+
+<p><a href="https://play.google.com/store/books/details?id=um5jEAAAQBAJ&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/tr_badge_web_generic.png" style="width: 250px;" /></a></p>
+
+<p><a href="https://books.apple.com/us/book/patoloji-atlas%C4%B1/id6456452218?itscg=30200&amp;itsct=books_box_badge&amp;ls=1" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/get-it-on-apple-books/badge/tr-tr?size=250x83&amp;releaseDate=1690848000" alt="Get it on Apple Books" style="border-radius: 13px; width: 250px; height: 83px;" /></a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Atıf için (Citation)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://zenodo.org/badge/latestdoi/452585667"><img src="https://zenodo.org/badge/452585667.svg" alt="" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://osf.io/6w5k8/">Open Science Framework DOI: 10.17605/OSF.IO/6W5K8</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/patolojiatlasi/patolojiatlasi.github.io/issues"><img src="https://img.shields.io/github/issues/patolojiatlasi/patolojiatlasi.github.io" alt="" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/patolojiatlasi/patolojiatlasi.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/patolojiatlasi/patolojiatlasi.github.io" alt="" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://twitter.com/intent/tweet?text=Wow:&amp;url=https%3A%2F%2Fwww.patolojiatlasi.com%2F%20@patolojinotlari%20@serdarbalci%20"><img src="https://img.shields.io/twitter/url?label=Patoloji%20Atlas%C4%B1&amp;style=social&amp;url=https%3A%2F%2Fwww.patolojiatlasi.com%2F" alt="Twitter" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://twitter.com/intent/tweet?text=Wow:&amp;url=https%3A%2F%2Fwww.patolojinotlari.com%2F%20@patolojinotlari%20@serdarbalci%20"><img src="https://img.shields.io/twitter/url?label=Patoloji%20Notlar%C4%B1&amp;style=social&amp;url=https%3A%2F%2Fwww.patolojinotlari.com%2F" alt="Twitter" /></a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
